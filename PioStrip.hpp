@@ -8,7 +8,7 @@ namespace PicoLed {
 
 class PioStrip: public PicoLedTarget {
     public:
-        PioStrip(PIO pioBlock, uint stateMachine, uint dataPin, uint numLeds, DataByte b1, DataByte b2, DataByte b3, DataByte b4);
+        PioStrip(PIO pioBlock, uint stateMachine, uint dataPin, uint numLeds, DataByte b1, DataByte b2, DataByte b3, DataByte b4,bool inverted);
         virtual ~PioStrip();
 
         uint32_t getData(uint index);
