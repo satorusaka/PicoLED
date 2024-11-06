@@ -11,6 +11,6 @@ class WS2812B : public PioStrip {
 
 };
 
-}  // namespace PicoLed
+}
 
 #endif

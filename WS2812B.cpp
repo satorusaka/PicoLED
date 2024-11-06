@@ -16,4 +16,4 @@ PioStrip(pioBlock, stateMachine, dataPin, numLeds, b1, b2, b3, b4, isInverted) {
     }
 }
 
-}  // namespace PicoLed
+}

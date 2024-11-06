@@ -1,8 +1,6 @@
-#include "PicoLedTarget.hpp"
-
-#include <stdio.h>
-
 #include "PicoLed.hpp"
+#include "PicoLedTarget.hpp"
+#include <stdio.h>
 
 using std::min;
 
